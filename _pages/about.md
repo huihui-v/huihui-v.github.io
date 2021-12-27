@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://cse.sysu.edu.cn">School of Computer Science and Engineering</a>. Sun Yat-sen University.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_cut.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>計算機學院 A608</p>
+    <p>番禺區 外環東路132號</p>
+    <p>廣東省 廣州市</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey, thanks for stopping by! 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My name is Jian-fei XING (邢劍飛 in Chinese). I am a M.Phil student in the School of Computer Science and Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn). I was advised by [Prof. Ruixuan WANG](http://www.isee-ai.cn/~wangruixuan/) and [Prof. Wei-shi ZHENG](https://www.isee-ai.cn/~zhwshi/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm interested in Computer Vision, Medical Image Analysis and Adversarial Robustness in Deep Learning systems. My ongoing project is focused on application of robust features in medical images.
+
+I'm currently looking for Ph.D positions.

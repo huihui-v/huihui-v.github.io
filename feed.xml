@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://huihui-v.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://huihui-v.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-01-05T14:09:21+08:00</updated><id>https://huihui-v.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">写于2021年最后一天的随笔</title><link href="https://huihui-v.github.io/blog/2021/notes/" rel="alternate" type="text/html" title="写于2021年最后一天的随笔" /><published>2021-12-28T19:30:00+08:00</published><updated>2021-12-28T19:30:00+08:00</updated><id>https://huihui-v.github.io/blog/2021/notes</id><content type="html" xml:base="https://huihui-v.github.io/blog/2021/notes/">&lt;p&gt;2016年，我大二。&lt;/p&gt;
+
+&lt;p&gt;虽然因为从小的探索，对计算机和程序有一些自己浅薄的理解，但作为大二学生的我来说一切电脑里的东西都看起来很新鲜又很困难。当时的我对计算机技术的认知大多数来源于大一的程序设计课程，觉得程序都是运行在那个黑黑的命令行窗口里面，而这离现代的种类繁多、功能复杂的系统相隔甚远。&lt;/p&gt;
+
+&lt;p&gt;我第一次对现代的系统级的程序产生概念是在16年年底。当时在中大东校区的至善学生活动中心做技术组的副主任，那时在Jingxiang师兄的支持和帮助下，召集了活动中心的一伙同学，一起重新编写了活动中心房间的预约申请系统和管理系统。&lt;/p&gt;
+
+&lt;p&gt;整个网站采用了MySQL数据库、Node.js+Express后端和Vue.js前端，我对于现代计算机应用技术的全部启蒙都来源于这个项目。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;由于网站部署在Linux服务器上，所以我开始学习在Ubuntu系统中以命令的形式执行各种操作。并且因为无法像电脑一样一伸手就摸到开机键，所以我对计算机的认知也开始转变为本地接口+云端系统的模式。&lt;/li&gt;
+  &lt;li&gt;系统包括了一些比较复杂的数据查询和修改操作（比如按照规则设置用户状态），因此我学会了大量的SQL语法。&lt;/li&gt;
+  &lt;li&gt;那一周的开发工作，让我积累了足以打破初学者瓶颈的代码量。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;开发的初期，团队的每个人被分配了不同的任务。但在后期需要添加的新功能几乎都是我一个人来实现。这种全栈开发的工作对我的能力提升带来很大的作用。然而，对我而言，这段经历给我带来的最大的帮助却不是编写Web系统本身，而是系统性思考的能力。&lt;/p&gt;
+
+&lt;p&gt;申请系统的每部分功能都是单独的模块来管理和运行的，这中间包括了程序与数据库系统的交流、后端程序内部每个中间件之间的交流、后端与前端之间基于网络通信的交流和前端数据与展示部分的协同等等。&lt;/p&gt;
+
+&lt;p&gt;当遇到问题的时候，我能看到的只有一个结果：点击了Button但是网页没有反应。可是这背后有太多可能性：前端渲染部分出错了？前后端的网络通信出错了？后端的逻辑出错了？还是数据库本身没有返回任何内容？为了解决这个问题，从点击Button开始到网页渲染，这中间的环节都需要我进行逐一检查。&lt;/p&gt;
+
+&lt;p&gt;从那时起，这种基于Data Flow的检查模式便成为了我编写代码和debug的基本思路。这不仅在我搭建个人网站等系统时有很大帮助，在我现在的研究工作中也很有用处。（看懂了论文的Data Flow，就相当于能自己实现出来了）&lt;/p&gt;
+
+&lt;p&gt;将自己所学的内容整理成文字，帮助更多的初学者，这种想法从那时就已经存在了，可是我并没有坚持下来。主要的原因，总结一下有几个：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;我一直认为自己的文字表达能力很弱，并不能很清楚地表达出我想讲述的内容。&lt;/li&gt;
+  &lt;li&gt;最开始的新知识是以很高的密度砸向我的，以我当时的能力和理解，可能无法写出非常深刻的文字。&lt;/li&gt;
+  &lt;li&gt;长久以来，我一直被平台和工具困扰，忽略了最核心的目的：输出内容。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这中间我尝试使用过的平台和工具有很多，也尝试使用自建系统保管自己的知识系统，但最终因为种种原因没有坚持下去。&lt;/p&gt;
+
+&lt;p&gt;现在决定开始认真经营自己的主页和博客，也有这样几个原因。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;经过了5年的时间，到2021年底的今天，我忽然发现肚子里已经囤积了太多内容，无论是感想，学到的知识还是工作内或工作以外的技能。这段时间里我学会的东西比我想象的要多很多，这些内容已经多到再不输出可能就会忘记了。&lt;/li&gt;
+  &lt;li&gt;过去的几年里，在被其他人问起一些技术问题时，我想在互联网上找到相关的教程资料发给对方。每到此时，我都发现想要找到优质的解答真的很难。在我看来，中文互联网的大多数技术内容，要么答非所问，要么过分浮于表面，看似解决了问题，但实际上只是知其然，而不知其所以然。因此，我想以自己的文字至少影响到身边的人，在其他人问起“怎样配置实验的环境”或者“我看你不用密码就能登录服务器，是怎么做到的”这类问题时，可以将自己的经验以文字的形式告诉对方。&lt;/li&gt;
+  &lt;li&gt;最近的申请过程中，我想要用“对技术和新知识好奇，并充满热情”来描述自己，却没有任何材料用以佐证。这其实也是偷懒带来的后果，毕竟互联网也没加盖。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;感谢你能够读到这里。我的导师和所有熟识我的人，对我的评价都是“这段文字是你用英文写好机翻过来的吗？”，但真的不是。&lt;/p&gt;
+
+&lt;p&gt;如果你继续留在这里，未来你会看到的有：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;很难读懂，但可能会慢慢变好的中文表述。&lt;/li&gt;
+  &lt;li&gt;技术文章，包括服务器运维，编程技巧，各种细分领域的Beginners’ guide for coders，“我做了xxx但是它没有正确运行我该怎么办”，推荐你使用的软件等等。&lt;/li&gt;
+  &lt;li&gt;笔记，包括AI或不是AI领域的论文，专业书籍，课程，非专业的书籍等等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最后，祝你可以在新的一年工作顺利。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;ps&quot;&gt;P.S.&lt;/h3&gt;
+
+&lt;p&gt;新年的第一天去吃了自助烧烤，第二天得了急性胃炎。祝大家都可以健康。&lt;/p&gt;</content><author><name></name></author><category term="Life" /><category term="Feelings" /><summary type="html">2016年，我大二。</summary></entry></feed>
